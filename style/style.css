@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #edf6f9;
+    
+}
+
+.container {
+    color:#edf6f9;
+    background-color: #8d99ae;
+    height: 100vh;
+    width: 70vw;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+header {
+    padding: .625rem;
+}
+
+header h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.formulario {
+    padding: .3125rem;
+}
+
+.formulario input {
+    display: block;
+    width: 70%;
+    margin: .625rem auto;
+    padding: .625rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #edf6f9;   
+}
+
+.formulario input::placeholder{
+    color: #edf6f9;
+}
+
+.btn-agregar {
+    display: inline-block;
+    width: 30%;
+    margin: 1.250rem auto;
+    padding: 15px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #118ab2;
+    color: #edf6f9;
+    text-transform: uppercase;
+    font-size: 1rem;
+    box-shadow: 6px 5px 12px -5px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: all  .3s;
+}
+.btn-agregar:hover{
+    background: #52b788;
+}
+.btn-agregar:active{
+    background: #3f8f69;
+    box-shadow: 6px 5px 12px -5px rgba(0,0,0,0.6) inset;
+}
+
+
+.listado {
+    display: flex;
+    flex-direction:column;
+}
+
+.contacto {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.btn-borrar {
+    display: inline-block;
+    background: none;
+    border: none;
+    font-size: 1em;
+    color: #660708;
+    position: relative;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn-borrar:hover {
+    color: #d90429;
+    font-size: 1.3em;
+}
+
+.btn-borrar:active {
+    top: 2px;
+}
