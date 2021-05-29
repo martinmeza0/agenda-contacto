@@ -9,7 +9,7 @@
     al recargar la pagina, los contactos no se borran.
 
 ------------
-### ![Ir a la pagina](https://github.com/martinmeza0/agenda-contacto)
+### ![](https://martinmeza0.github.io/agenda-contacto/)
 
 ![](vista_previa.jpg)
 ------------
