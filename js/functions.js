@@ -13,10 +13,7 @@ const cargarContactos = (db, parentNode) => {
         crearContacto(parentNode, contacto, db)
     });
 }
-const borrarContactos = (db, contacto) => {
-    db.removeItem(contacto.id);
-    location.reload();
-}
+
 const crearContacto = (parentNode, contacto, db) => {
     //creamos los elementos html de cada propiedad
     let divContacto = document.createElement('div');
@@ -47,13 +44,3 @@ const crearContacto = (parentNode, contacto, db) => {
         location.reload();
     };
 }
-
-    
-
-
-// {/* <div class="contacto">
-// <h3>Nombre</h3>
-// <p>Numero</p>
-// <p>Direccion</p>
-// <button class="btn-borrar"><i class="fas fa-trash"></i></button>
-// </div> */}
