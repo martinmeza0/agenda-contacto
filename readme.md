@@ -12,7 +12,8 @@
 ![](vista_previa.jpg)
 ------------
 
-HTML - CSS - JS
+HTML - CSS - JS 
+Librerias usadas: sweet alert
 
 
 ###### Por: Martin Meza
